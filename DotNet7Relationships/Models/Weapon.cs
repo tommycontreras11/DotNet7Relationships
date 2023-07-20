@@ -1,10 +1,10 @@
 ﻿namespace DotNet7Relationships.Models
 {
-    public class Character
+    public class Weapon
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
-        public Backpack Backpack { get; set; } = default!;
-        public List<Weapon> Weapons { get; set; } 
+        public int CharacterId { get; set; }
+        public Character Character { get; set; } = default!;
     }
 }
