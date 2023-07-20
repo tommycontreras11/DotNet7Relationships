@@ -9,5 +9,6 @@ namespace DotNet7Relationships.Data
         public DbSet<Character> Characters => Set<Character>();
         public DbSet<Backpack> Backpacks => Set<Backpack>();
         public DbSet<Weapon> Weapons => Set<Weapon>();
+        public DbSet<Faction> Factions => Set<Faction>();
     }
 }
